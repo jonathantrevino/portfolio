@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main: #091E42;
+  --body: #5D6B82;
+  --badge: #EAF2FB;
+  --badge-text: #1A4C81;
+  --button: #2B7CD4;
+  --button-text: #EAF2FB;
+  --container: #EAF2FB;
+  --container-stroke: #4F92DB;
+
+}
+
+
+h1 {
+  font-family: var(--font-gabriela), sans-serif;
+  font-size: 48px;
+  color: var(--main);
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: var(--font-gabriela), sans-serif;
+  font-size: 40px;
+  color: var(--main);
+  line-height: 1;
+}
+
+p.title {
+  font-size: 28px;
+  color: var(--main);
+}
+
+h3 {
+  font-size: 33px;
+  color: var(--main);
+}
+
+h4 {
+  font-size: 28px;
+  color: var(--main);
+}
+
+h5 {
+  font-size: 23px;
+  color: var(--main);
+}
+
+h6 {
+  font-size: 19px;
+  color: var(--main);
+}
+
+.caption {
+  font-size: 13px;
+  color: var(--body);
+}
