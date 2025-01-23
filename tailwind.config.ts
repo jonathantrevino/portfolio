@@ -24,7 +24,8 @@ export default {
           'button-text': '#EAF2FB',
           'container': '#EAF2FB',
           'container-stroke': '#4F92DB',
-        }
+        },
+        'card-stroke': '#DFE2E6',
       },
       lineHeight: {
         '160': '1.6'
